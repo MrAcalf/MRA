@@ -46,26 +46,40 @@ const Style = createGlobalStyle`
 
   div.row p{
     font-size: 25px;
+    text-align: justify;
   }
 
   div.col{
       padding: 0 2rem;
   }
 
-  @media (max-width: 540px) {
+  .wordpressIcon{
+    width: 35px;
+    opacity: .7;
+  }
+
+  @media (max-width: 750px) {
     div.row p{
         font-size: 18px;
     }
 
     div.container.container-fluid h1{
         font-size: 28px;
+        margin-bottom: 0px;
+        padding: 8px 0;
     }
 
     div.container.container-fluid hr{
         margin-top: 0;
+        margin-bottom: 5px;
     }
     div.col h2{
         font-size: 21px;
+        margin-bottom: 8px;
+    }
+
+    .wordpressIcon{
+      width: 22px;
     }
   }
 `
