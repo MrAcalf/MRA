@@ -6,7 +6,7 @@ const Reset = createGlobalStyle`
     padding: 0;
     box-sizing: border-box;
     scrollbar-width: thin;
-    scrollbar-color: #000 rgba(50,70,90,.8);
+    scrollbar-color: #000 #344251;
   }
 `;
 

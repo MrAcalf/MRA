@@ -2,13 +2,11 @@ import { createGlobalStyle } from "styled-components"
 
 const Style = createGlobalStyle`
   .container{  
-    padding-top: 5px;
     height: 100vh;
     min-height: 100vh;
     text-align: center;
     color: #555;
     background: #eee;
-    overflow-y: hidden;
     max-width: 100vw;
   }
   div.container.container-fluid{
@@ -47,26 +45,23 @@ const Style = createGlobalStyle`
   div.row p{
     font-size: 25px;
     text-align: justify;
+    margin-bottom: 0;
   }
 
   div.col{
-      padding: 0 2rem;
-  }
-
-  .wordpressIcon{
-    width: 35px;
-    opacity: .7;
+      padding: 0 5rem;
   }
 
   @media (max-width: 750px) {
     div.row p{
-        font-size: 18px;
+        font-size: 1em;
     }
 
     div.container.container-fluid h1{
-        font-size: 28px;
+        font-size: 1.8em;
         margin-bottom: 0px;
-        padding: 8px 0;
+        padding: 1rem 0;
+        line-height: 1.2;
     }
 
     div.container.container-fluid hr{
@@ -74,12 +69,12 @@ const Style = createGlobalStyle`
         margin-bottom: 5px;
     }
     div.col h2{
-        font-size: 21px;
-        margin-bottom: 8px;
+        font-size: 1.5em;
+        margin-bottom: .5rem;
     }
 
-    .wordpressIcon{
-      width: 22px;
+    div.col{
+      padding: 0 3.5rem;
     }
   }
 `

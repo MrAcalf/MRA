@@ -6,7 +6,7 @@ const Base = createGlobalStyle`
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:1rem;
     font-weight:normal;
-    line-height:1.5;
+    line-height:1.4 !important;
     color:#333;
     overflow-x:hidden;
   }
