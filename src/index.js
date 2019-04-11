@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react'
+import React from 'react'
 import ReactDOM from 'react-dom'
 import App from './App'
 import * as serviceWorker from './serviceWorker'
@@ -9,11 +9,11 @@ import 'popper.js'
 import 'jquery/jquery'
 
 ReactDOM.render(
-    <Fragment>
+    <>
         <Reset />
         <Base />
         <App />
-    </Fragment>
+    </>
     , 
     document.getElementById('root')
 )

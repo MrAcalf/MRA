@@ -66,9 +66,12 @@ const Style = createGlobalStyle`
     }
 
     .icones p {
-      padding-bottom: .5rem;
+      margin-bottom: .5rem;
     }
 
+    .tecnologias.flex.flex-wrap.size.column{
+      padding: 0;
+    }
   }
 `
 export default Style
