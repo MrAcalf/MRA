@@ -65,6 +65,10 @@ const Style = createGlobalStyle`
       max-padding: 2rem;	
     }
 
+    .icones p {
+      padding-bottom: .5rem;
+    }
+
   }
 `
 export default Style

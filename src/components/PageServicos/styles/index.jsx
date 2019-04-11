@@ -58,7 +58,7 @@ const Style = createGlobalStyle`
     }
 
     div.container.container-fluid h1{
-        font-size: 1.8em;
+        font-size: 1.5em;
         margin-bottom: 0px;
         padding: 1rem 0;
         line-height: 1.2;
@@ -69,7 +69,7 @@ const Style = createGlobalStyle`
         margin-bottom: 5px;
     }
     div.col h2{
-        font-size: 1.5em;
+        font-size: 1.2em;
         margin-bottom: .5rem;
     }
 
