@@ -97,20 +97,11 @@ const PageServices = (_props) => {
                         <div className='service'>                                                    
                             <p>Feito para quem quer trabalhar com publicações, seja para
                                 blog, site de notícias ou artigos. Esse tipo de site é ótimo
-                                para empresas cujo foco é o marketing de conteúdo.                       
-                            </p>
-                            <ul>
-                                <li><strong>Funcionalidades:</strong></li>
-                                <li>• Editor de texto</li>
-                                <li>• Gestão de publicações</li>
-                                <li>• Captação de emails de leitores</li>
-                                <li>• CEO</li>
-                            </ul>                            
+                                para empresas cujo foco é o marketing de conteúdo.
+                                A grande maioria dos publicadores de notícias, blogs e artigos
+                                usam o wordpress pois ele é mais fácil de ser reanqueado na google                   
+                            </p>                                                        
                         </div>
-                        <p>Wordpress é a ferramenta que auxilia os publicadores de conteúdo em
-                            todo o mundo a escreverem seus textos já prontos para serem achados
-                            pela google.
-                        </p>
                     </div>
                 </article>
             </Style>
