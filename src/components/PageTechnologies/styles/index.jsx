@@ -13,7 +13,7 @@ const Style = createGlobalStyle`
   }
 
   .fullSizeTech h1{
-      font-size: 1.8em;
+      font-size: 2.5em;
   } 
 
   .tecnologias{
@@ -72,6 +72,10 @@ const Style = createGlobalStyle`
     .tecnologias.flex.flex-wrap.size.column{
       padding: 0;
     }
+
+    .fullSizeTech h1{
+      font-size: 1.5em;
+  } 
   }
 `
 export default Style

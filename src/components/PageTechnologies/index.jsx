@@ -1,7 +1,7 @@
 import React from 'react'
 import Style from './styles'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faHtml5, faJs, faPhp, faCss3, faNode, faReact } from '@fortawesome/free-brands-svg-icons'
+import { faHtml5, faJs, faWordpress, faCss3, faNode, faReact } from '@fortawesome/free-brands-svg-icons'
 
 const PageTechnologies = _Props => {
     return(
@@ -23,7 +23,7 @@ const PageTechnologies = _Props => {
                 </section>
                 <section className='tecnologias flex flex-wrap size column'>
                     <div className='icones'>
-                        <p>PHP</p> <FontAwesomeIcon icon={faPhp} size='5x' />
+                        <p>Wordpress</p> <FontAwesomeIcon icon={faWordpress} size='5x' />
                     </div>
                     <div className='icones'>
                         <p>Node JS</p> <FontAwesomeIcon icon={faNode} size='5x' />

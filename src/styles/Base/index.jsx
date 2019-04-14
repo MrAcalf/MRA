@@ -6,9 +6,21 @@ const Base = createGlobalStyle`
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size:1rem;
     font-weight:normal;
-    line-height:1.4 !important;
+    line-height:1.5;
     color:#333;
     overflow-x:hidden;
+  }
+
+  h1{
+    font-size:1.8rem;
+  }
+
+  h2{
+    font-size:1.5rem;
+  }
+
+  h3{
+    font-size:1.2rem;
   }
 
   ::-webkit-scrollbar{
