@@ -12,8 +12,8 @@ const Style = Styled.div`
     background: 
     /* top, transparent red */ 
     linear-gradient(
-      #202040ee, 
-      #202040cc
+      #344251ee, 
+      #344251cc
     ),
     /* bottom, image */
     url(https://media.giphy.com/media/fwDiewrmmBUhnNkgOe/giphy.gif);

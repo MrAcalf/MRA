@@ -15,7 +15,7 @@ const Style = Styled.article`
        margin-bottom: 30px; 
     }
 
-    p{
+    h2{
         color: #fff;
         margin-bottom: 2rem;
     }
@@ -27,20 +27,21 @@ const Button = Styled.button`
     padding: 0.5rem 0;
     margin: 0.5rem 1rem;
     width: 11rem;
-    background: transparent;
-    color: white;
-    border: 2px solid white;
+    background-color: #37c8ab;
+    color: white;    
+    border: 2px solid #37c8ab;
     align-self: center;
 
     :hover{
         background-color: white;
-        color: #555;
+        border: 2px solid #37c8ab;
+        color: #37c8ab;
     }
 
     :active{
-        background-color: #37c8ab;
-        color: white;
-        border: 2px solid #37c8ab;
+        background: transparent;
+        color: white;        
+        border: 2px solid white;
     }
 `
 
@@ -49,10 +50,9 @@ const MainContent = (_props) => {
         <>
             <Style>
                 <Title main>MRA Web Design</Title>
-                <p>Lorem Lorem Lorem Lorem Lorem Lorem 
-                Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
-                Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem 
-                Lorem Lorem Lorem Lorem Lorem Lorem Lorem Lorem </p>
+                <h2>Prestamos serviços de Web Design na cidade de Guaratinguetá e 
+                proximidades. Entre e contato já e agente um orçamento.
+                </h2>
                 <Button>Ligue Me</Button>
             </Style>            
         </>

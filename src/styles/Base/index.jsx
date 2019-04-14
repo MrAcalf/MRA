@@ -4,7 +4,6 @@ const Base = createGlobalStyle`
   body {
     margin:0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size:1rem;
     font-weight:normal;
     line-height:1.5;
     color:#333;
@@ -21,6 +20,19 @@ const Base = createGlobalStyle`
 
   h3{
     font-size:1.2rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+  @media (max-width:700px){
+    p{
+      font-size: 0.8rem;
+    }
+
+    li{
+      font-size: 0.8rem;
+    }
   }
 
   ::-webkit-scrollbar{
