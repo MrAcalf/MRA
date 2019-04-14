@@ -20,7 +20,7 @@ const Style = Styled.article`
         margin-bottom: 2rem;
     }
 
-    @media(max-width: 375px;){
+    @media(max-width: 375px){
         margin-top: 1.5rem;
     }
 `
