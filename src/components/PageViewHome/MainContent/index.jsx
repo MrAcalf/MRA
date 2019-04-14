@@ -19,6 +19,10 @@ const Style = Styled.article`
         color: #fff;
         margin-bottom: 2rem;
     }
+
+    @media(max-width: 375px;){
+        margin-top: 1.5rem;
+    }
 `
 const Button = Styled.button`
     display: inline-block;
