@@ -7,7 +7,7 @@ const PageTechnologies = _Props => {
     return(
         <>
         <Style />
-        <div className='fullSizeTech'>
+        <div id='tecnologias' className='fullSizeTech'>
             <h1>Tecnologias que utilizo</h1>
             <section className='flex'>
                 <section className='tecnologias flex flex-wrap size column'>

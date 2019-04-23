@@ -1,7 +1,7 @@
 import React from 'react'
 import Styled from 'styled-components'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGlobe, faSearch, faIndustry, faArrowRight } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
 import { faWordpress } from '@fortawesome/free-brands-svg-icons'
 
 const Style = Styled.div`
@@ -10,6 +10,7 @@ const Style = Styled.div`
     background: #eee;
     padding: 1rem 3rem;   
     text-align: center; 
+
     .service{
         padding: 1rem 0;
         display:flex;
@@ -42,6 +43,10 @@ const Style = Styled.div`
         padding-bottom: 16px;
     }
 
+    h2{
+        margin-top: 1rem;
+    }
+
     @media (max-width: 700px){
         line-height: 1.4;
         .service{
@@ -59,16 +64,13 @@ const Style = Styled.div`
         }
     }
 
-
-    }
-
 `
 
 
 const PageServices = (_props) => {
     return (
         <>
-            <Style>
+            <Style id='servicos'>
                 <h1>Serviços Prestados</h1>
                 <article className='servicos'>
                     <div>

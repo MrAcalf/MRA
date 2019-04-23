@@ -1,7 +1,6 @@
 import React from 'react'
 import Styled from 'styled-components'
 import NavbarNav from './NavbarNav'
-import Title from '../../styled-components/Title'
 import MainContent from './MainContent'
 
 const Style = Styled.div`
