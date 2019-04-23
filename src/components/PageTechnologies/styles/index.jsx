@@ -13,7 +13,7 @@ const Style = createGlobalStyle`
   }
 
   .fullSizeTech h1{
-      font-size: 2.5em;
+      font-size: 1.8em;
   } 
 
   .tecnologias{

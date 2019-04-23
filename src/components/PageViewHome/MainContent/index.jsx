@@ -24,7 +24,7 @@ const Style = Styled.article`
         margin-top: 1.5rem;
     }
 `
-const Button = Styled.button`
+const Button = Styled.a`
     display: inline-block;
     font-size: 1.5em;
     border-radius: 3px;
@@ -35,6 +35,7 @@ const Button = Styled.button`
     color: white;    
     border: 2px solid #37c8ab;
     align-self: center;
+    text-decoration:none;
 
     :hover{
         background-color: white;
@@ -47,6 +48,8 @@ const Button = Styled.button`
         color: white;        
         border: 2px solid white;
     }
+
+    
 `
 
 const MainContent = (_props) => {
@@ -55,9 +58,9 @@ const MainContent = (_props) => {
             <Style>
                 <Title main>MRA Web Design</Title>
                 <h2>Prestamos serviços de Web Design na cidade de Guaratinguetá e 
-                proximidades. Entre e contato já e agente um orçamento.
+                proximidades. Entre e contato já e agende um orçamento.
                 </h2>
-                <Button>Ligue Me</Button>
+                <Button href='#contato' rel="noopener noreferrer">Ligue me</Button>
             </Style>            
         </>
     )
